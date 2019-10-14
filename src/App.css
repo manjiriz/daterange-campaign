@@ -20,3 +20,7 @@
 .App-link {
   color: #09d3ac;
 }
+.App-card {
+  width:100%;
+  height: 100vh;
+}

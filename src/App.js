@@ -1,24 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
+import 'antd/dist/antd.css'; 
+import "react-datepicker/dist/react-datepicker.css";
 import './App.css';
+import { Card } from 'antd';
+import DateRange from "./components/DateRange"
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Card title="Campaign Information" className="App-card">
+        <DateRange />
+      </Card>
     </div>
   );
 }

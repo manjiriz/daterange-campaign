@@ -1,0 +1,14 @@
+.tableClass {
+    border-collapse: collapse;
+    page-break-inside: auto;
+}
+
+.table-th-td {
+    border: 1px solid black;
+    text-align: center;
+    height: 30px;
+}
+
+.theadClass {
+    font-weight: bold;
+}

@@ -1,0 +1,18 @@
+.Date-range-div {
+ text-align: left;
+}
+
+.Date-range-endSpan {
+    margin-left: 180px;
+
+}
+
+.filtersubmit {
+    position: relative;
+    z-index: 1;
+    left: -25px;
+    top: 1px;
+    color: #7B7B7B;
+    cursor:pointer;
+    width: 0;
+}
